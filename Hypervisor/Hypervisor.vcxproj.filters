@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8354abd1-c150-4048-9ea8-d468af589acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Global">
+      <UniqueIdentifier>{a22b6903-cc24-4752-86f6-feecd3492c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Intel">
+      <UniqueIdentifier>{3290ed69-7fa2-4bb3-8d47-354b0fcbaa86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{37609315-8869-4f79-b39b-02fb7cbfa827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{8b809c89-e07d-4aff-accf-b46bab51ce65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\hde">
+      <UniqueIdentifier>{f52e5432-de85-43b7-8685-c7d9a85c00c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AntiCheat">
+      <UniqueIdentifier>{d152962c-4b0f-4799-b042-f64b5c051f5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Global\Global.cpp">
+      <Filter>Source\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Intel\VMX.cpp">
+      <Filter>Source\Intel</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Common.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Intel\VMExit.cpp">
+      <Filter>Source\Intel</Filter>
+    </ClCompile>
+    <ClCompile Include="Intel\EPT.cpp">
+      <Filter>Source\Intel</Filter>
+    </ClCompile>
+    <ClCompile Include="System\System.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Intel\Hook.cpp">
+      <Filter>Source\Intel</Filter>
+    </ClCompile>
+    <ClCompile Include="hde\hde64.c">
+      <Filter>Source\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCheat\AntiCheat.cpp">
+      <Filter>Source\AntiCheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Intel\Memory.cpp">
+      <Filter>Source\Intel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global\Global.hpp">
+      <Filter>Source\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Intel\ia32.hpp">
+      <Filter>Source\Intel</Filter>
+    </ClInclude>
+    <ClInclude Include="Intel\VMX.hpp">
+      <Filter>Source\Intel</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\SysDefine.hpp">
+      <Filter>Source\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Common.hpp">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Intel\VMExit.hpp">
+      <Filter>Source\Intel</Filter>
+    </ClInclude>
+    <ClInclude Include="Intel\EPT.hpp">
+      <Filter>Source\Intel</Filter>
+    </ClInclude>
+    <ClInclude Include="System\System.hpp">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Intel\Hook.hpp">
+      <Filter>Source\Intel</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\hde64.h">
+      <Filter>Source\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\pstdint.h">
+      <Filter>Source\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\table64.h">
+      <Filter>Source\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCheat\AntiCheat.hpp">
+      <Filter>Source\AntiCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Intel\Memory.hpp">
+      <Filter>Source\Intel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="VMM.asm" />
+  </ItemGroup>
+</Project>
